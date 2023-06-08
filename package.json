@@ -1,0 +1,32 @@
+{
+  "name": "hydrological-monitoring",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Application for hydrological monitoring",
+  "author": "Ing Oscar García",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.5",
+    "chart.js": "4.2.1",
+    "eslint": "8.38.0",
+    "eslint-config-next": "13.3.0",
+    "next": "13.2.3",
+    "primeflex": "3.3.0",
+    "primeicons": "^6.0.1",
+    "primereact": "9.2.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-redux": "^8.0.5",
+    "redux": "^4.2.1",
+    "sweetalert2": "^11.4.8"
+  },
+  "devDependencies": {
+    "sass": "^1.58.3"
+  }
+}
